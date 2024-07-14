@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek CZodiaco</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" href="./img/iconz.jpg">
+
+</head>
+
+<body>
+    <header>
+        <img src="./img/caballeros-del-zodiaco-logo.png" alt="logo caballeros del zodiaco">
+        <h1 class="titulo-header">Alura Geek - Caballeros del zodiaco</h1>
+        <h3 class="descripcion-contenido">CABALLEROS DE BRONCE</h3>
+    </header>
+
+    <main>
+        <div class="contenido-general">
+            <!-- Section container card -->
+            <section class="seccion-cuadros">
+
+                <div class="marco-contenedor" data-lista>
+                    <!--
+                        <div class="marco-card">
+                            <img class="imagen-cuadro src="https://m.media-amazon.com/images/I/7109ANYoy2L._AC_SX569_.jpg" alt="Imagen 1" ">
+                            <p class="name-card">Seiya - Pegaso</p>
+                            <p class="price">18.000</p>
+                            <button class="btn-eliminar" data-id="${id}">
+                                <div class="icono-papelera">
+                                    <img src="btn-borrar.png" alt="boton eliminar">
+                                </div>
+                            </button>
+                        </div>
+                        -->
+                </div>
+
+            </section>
+
+            <!--Section form-->
+            <section class="seccion-formulario">
+                <img class="img-formulario" src="./img/caballerosdezodiaco5.jpg" alt="caballeros del zodiaco">
+                <h2 class="titulo-formulario">Agregar Caballero</h2>
+
+                <!--Formulario-->
+                <form class="form-add-cabal" data-formulario>
+                    <fieldset>
+                        <input name="titulo-obra" id="titulo" class="input-cabal" placeholder="Nombre" type="text"
+                            data-titulo />
+                    </fieldset>
+                    <fieldset class="formulario-obra">
+                        <input name="tecnica-obra" id="tecnica" class="input-cabal" placeholder="Precio" type="text"
+                            data-tecnica />
+                    </fieldset>
+                    <fieldset class="formulario-obra">
+                        <input name="imagen-obra" id="imagen" class="input-cabal" placeholder="URL de la imagen"
+                            type="text" data-imagen />
+                    </fieldset>
+                    <div class="botones-cabal">
+                        <button type="submit" class="boton-enviar" id="btn">Enviar</button>
+                        <button type="reset" class="boton-limpiar" id="btn">Limpiar</button>
+                    </div>
+                </form>
+
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <h1 class="titulo-encabezado">Alura Geek</h1>
+        <p class="copyright">José D. Rojas</p>
+        <p class="copyright">&copy Challenge Alura Latam/Oracle Next Education</p>
+        <p class="copyright">2024</p>
+
+    </footer>
+    <script src="./js/mostrarCuadros.js" type="module"></script>
+    <script src="./js/crearCuadro.js" type="module"></script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "charly-geek",
+  "version": "1.0.0",
+  "description": "plataforma de intercambio de obras de arte",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch ./db.json --port 3000"
+  },
+  "author": "Sonia Veit",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.1"
+  }
+}
