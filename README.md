@@ -42,7 +42,7 @@ HTML5:
 ## URL del Proyecto Desplegado
 
 Puedes acceder al proyecto desplegado en el siguiente enlace:
-[Proyecto Desplegado]()
+[Proyecto Desplegado](https://github.com/joserf42/AluraGeek-CaballerosDelZodiaco)
 
 Puedes acceder al proyecto desplegado de la API, en Vercel, en el siguiente enlace:
 [Proy. Api Desplegado]()
